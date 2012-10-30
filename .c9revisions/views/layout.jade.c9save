@@ -1,0 +1,4 @@
+{"ts":1351475375023,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"!!!\nhtml\n  head\n    title= title\n    link(rel='stylesheet', href='/stylesheets/style.css')\n  body!= body"]],"start1":0,"start2":0,"length1":0,"length2":104}]],"length":104}
+{"contributors":[],"silentsave":false,"ts":1351476999464,"patch":[[{"diffs":[[0," title= "],[-1,"title"],[1,"hello Mimi"],[0,"\n    lin"]],"start1":19,"start2":19,"length1":21,"length2":26}]],"length":109,"saved":false}
+{"ts":1351477058031,"patch":[[{"diffs":[[0,"ello"],[-1," Mimi"],[0,"\n   "]],"start1":28,"start2":28,"length1":13,"length2":8}]],"length":104,"saved":false}
+{"ts":1351477284542,"patch":[[{"diffs":[[0,"le= "],[-1,"hello"],[1,"title"],[0,"\n   "]],"start1":23,"start2":23,"length1":13,"length2":13}]],"length":104,"saved":false}
