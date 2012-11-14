@@ -1,7 +1,9 @@
 <script src="/socket.io/socket.io.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+ <script src="scripts/kinetic-v4.0.4.min.js"></script>
 <script>
 
+ 
         var socket = io.connect();
 
         // on connection to the server, ask for user's name with an anonymous callback
@@ -13,7 +15,9 @@
         
         //listener, whenever the server emits 'updatechat', this update the chat body 
         socket.on('updatechat', function (username, data) {
-            $('#conversation').append('<b>' + username + ':<b>' + data + '<br>');
+            var t = +new Date;
+            $('#conversation').append('<b>'+ new Date() + ' - ' + username + ':<b>' + data + '<br>');
+             $('#data').focus();
         });
         
         //listener, whenever the server emits updateusers, this update the username list 
